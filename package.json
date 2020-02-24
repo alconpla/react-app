@@ -5,15 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html"
+    "start": "parcel ./src/index.html --open"
   },
-  "author": "",
+  "author": "Alex Contreras (alconpla.github.io)",
   "license": "ISC",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "parcel-bundler": "^1.12.4",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7"
   }
+  
 }
